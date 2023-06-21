@@ -5,7 +5,6 @@ interface SetCatProps {
 }
 
 export async function getCatFact(props: SetCatProps): Promise<void> {
-  console.log("fetch called");
   try {
     const response = await fetch("https://catfact.ninja/fact?max_length=64");
     const fact = await response.json();
