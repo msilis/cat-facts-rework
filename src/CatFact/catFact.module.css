@@ -1,0 +1,55 @@
+.catFactContainer {
+  width: 40%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border: 4px solid black;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+/* Fact fade-in animation */
+.fadeText {
+  animation: 2s animate-fade-text ease-out 1;
+}
+
+@keyframes animate-fade-text {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .catFactContainer {
+    width: 65%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    border: 4px solid black;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+  }
+}

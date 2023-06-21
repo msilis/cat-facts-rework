@@ -1,0 +1,14 @@
+.headerContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.catFactLogo {
+  width: 40rem;
+}
+
+@media screen and (max-width: 500px) {
+  .catFactLogo {
+    width: 15rem;
+  }
+}

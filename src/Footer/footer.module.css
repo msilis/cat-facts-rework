@@ -1,0 +1,24 @@
+.footerContainer {
+  display: flex;
+  margin-top: 5rem;
+  background-color: #7d9d76;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+.link:hover {
+  color: antiquewhite;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
