@@ -7,6 +7,7 @@
   border: 4px solid black;
   box-shadow: 5px 5px 5px gray;
   border-radius: 10px;
+  transition: width 0.3s ease, height 0.3s ease;
 }
 
 p {
@@ -17,10 +18,10 @@ p {
 
 /* Fact fade-in animation */
 .fadeText {
-  animation: 2s animate-fade-text ease-out 1;
+  animation: 2s animateFadeText ease-out 1;
 }
 
-@keyframes animate-fade-text {
+@keyframes animateFadeText {
   0% {
     opacity: 0;
     transform: translateY(70%);
@@ -51,5 +52,11 @@ p {
     border: 4px solid black;
     box-shadow: 5px 5px 5px gray;
     border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .fadeText {
+    font-size: 0.75rem;
   }
 }

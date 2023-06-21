@@ -2,7 +2,7 @@ import style from "./footer.module.css";
 
 export default function Footer(): JSX.Element {
   return (
-    <div className={style.gooterContainer}>
+    <div className={style.footerContainer}>
       <p className={style.name}>Miks Silis</p>
       <a
         href="https://www.linkedin.com/in/miks-silis"
