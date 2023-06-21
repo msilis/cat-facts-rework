@@ -1,8 +1,4 @@
-import { Dispatch, SetStateAction } from "react";
-
-interface SetCatProps {
-  setGetCatFact: Dispatch<SetStateAction<string>>;
-}
+import { SetCatProps } from "../Interfaces/setCatProps";
 
 export async function getCatFact(props: SetCatProps): Promise<void> {
   try {

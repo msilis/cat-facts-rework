@@ -1,8 +1,5 @@
 import style from "./catFact.module.css";
-
-interface catProps {
-  getCatFact: string;
-}
+import { catProps } from "../../Interfaces/catProps";
 
 export default function CatFact(props: catProps): JSX.Element {
   return (

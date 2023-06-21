@@ -1,5 +1,5 @@
 import style from "./header.module.css";
-import catFactLogo from "../assets/Cat.png";
+import catFactLogo from "../../assets/Cat.png";
 
 export default function Header(): JSX.Element {
   return (

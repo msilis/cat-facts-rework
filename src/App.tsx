@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./App.css";
-import Header from "./Header/header";
-import CatFact from "./CatFact/catFact";
-import Button from "./Button/button";
-import Footer from "./Footer/footer";
+import Header from "./Components/Header/header";
+import CatFact from "./Components/CatFact/catFact";
+import Button from "./Components/Button/button";
+import Footer from "./Components/Footer/footer";
 
 function App(): JSX.Element {
   const [getCatFact, setGetCatFact] = useState<string>("");

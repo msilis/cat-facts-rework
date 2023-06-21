@@ -1,11 +1,6 @@
-import { Dispatch, SetStateAction } from "react";
 import style from "./button.module.css";
-import { getCatFact } from "../Utilities/getCatFact";
-
-interface CatButtonProps {
-  setGetCatFact: Dispatch<SetStateAction<string>>;
-  catState: string;
-}
+import { getCatFact } from "../../Utilities/getCatFact";
+import { CatButtonProps } from "../../Interfaces/catButtonProps";
 
 export default function Button(props: CatButtonProps): JSX.Element {
   const handleButtonClick = () => {
